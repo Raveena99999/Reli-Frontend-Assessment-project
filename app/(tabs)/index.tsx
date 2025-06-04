@@ -8,7 +8,7 @@ export default function JournalScreen() {
 
   const saveEntry = () => {
     if (!entry.trim()) {
-      Alert.alert("Error", "Please enter some text before saving.");
+      Alert.alert("Error", "Please enter some text before saving and checkin it .");
       return;
     }
     setSavedEntries([entry.trim(), ...savedEntries]);

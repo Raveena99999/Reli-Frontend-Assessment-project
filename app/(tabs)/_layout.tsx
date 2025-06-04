@@ -9,6 +9,7 @@ export default function Layout() {
         headerShown: true,
         tabBarActiveTintColor: '#2563eb', // Tailwind blue-600
         tabBarInactiveTintColor: 'gray',
+        
         tabBarStyle: { backgroundColor: 'white' },
       }}
     >
